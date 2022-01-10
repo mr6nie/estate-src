@@ -2,7 +2,9 @@ from django.db import models
 from django.db.models import fields
 from django_countries.serializer_fields import CountryField
 from rest_framework import serializers
+
 from apps.ratings.serializers import RatingSerializer
+
 from .models import Profile
 
 
