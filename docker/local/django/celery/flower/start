@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -o errexit
+
+set -o nounset
+
+
+celery -A real_estate flower --broker="${CELERY_BROKER}"
